@@ -10,7 +10,7 @@ The goal of the given code is to perform image segmentation using HSV colour spa
 want to perform color base tracking and not make use of Deep learning or any other Complex Machine Learning algorithm, however 
 the accuracy that you get in this solution is not very good and it just gets the job done. 
 ## Code Flow
-Initally we get a frame from raspi cam and we apply filters to smoothen it to reduce noise. We convert the color space from
+Initially we get a frame from raspi cam and we apply filters to smoothen it to reduce noise. We convert the color space from
 RGB to HSV because the range of pixels spread in RGB color space is huge as a result of which tracking a particular object
 based on its color characteristics is difficult (if we increase the range then it becomes susceptible to noise). In HSV color space the pixel 
 distribution in HUE channel is not very large therefore making it quite useful for our use-case. Also to provide adjustment during the code
