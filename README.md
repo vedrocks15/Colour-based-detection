@@ -7,8 +7,8 @@ OpenCV code to track an object based on its color.
 - Other python dependencies are specified in the readme.txt file
 ## Idea
 The goal of the given code is to perform image segmentation using HSV colour space in OpenCV. This is very useful incase you
-want to perform color base tracking and not make use of Deep learning or any other Complex Machine Learning algorithms however 
-the accuracy that you get in this is not very good and just gets the job done. 
+want to perform color base tracking and not make use of Deep learning or any other Complex Machine Learning algorithm, however 
+the accuracy that you get in this solution is not very good and it just gets the job done. 
 ## Code Flow
 Initally we get a frame from raspi cam and we apply filters to smoothen it to reduce noise. We convert the color space from
 RGB to HSV because the range of pixels spread in RGB color space is huge as a result of which tracking a particular object
