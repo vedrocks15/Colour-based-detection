@@ -4,7 +4,7 @@ OpenCV code to track an object based on its color.
 - Rpi 3b+
 - Raspi Cam v2 (the best option if you want to use CSI-2 interface)
 - OpenCV on raspbian OS
-- Other python dependencies are specified in the readme.txt file
+- Other python dependencies are commented in the code
 ## Idea
 The goal of the given code is to perform image segmentation using HSV colour space in OpenCV. This is very useful incase you
 want to perform color base tracking and not make use of Deep learning or any other Complex Machine Learning algorithm, however 
