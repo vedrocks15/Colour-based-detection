@@ -24,3 +24,19 @@ We also display 2D - frame when the object is detected, along with co-ordinates 
 it with X and Y axis which can be later used to make gimbals for object tracking. In the terminal using an inaccurate method
 of similarity of triangles we are able to calculate the distance to the target object only if know the target object's size (in 
 our example we make use of a known lemon).
+
+Also the constraint of this code is that in case of multiple targets detections, the code
+makes use of sorting contours (i.e. multiple object detections) based on
+the area occupied by each contour. Only the object having the largest
+contour will be considered.
+
+
+## Output 
+- Depicting how we use scroll bars to adjust HSV value 
+![TaskBar](https://github.com/vedrocks15/Colour-based-detection/blob/master/output/Screenshot%20from%202020-01-02%2011-17-15.png)
+- No Detection (On the left, there are distance values of previous detections)
+![No Object](https://github.com/vedrocks15/Colour-based-detection/blob/master/output/2019-12-30-073202_1920x1080_scrot.png)
+- After Object Detection
+![Object](https://github.com/vedrocks15/Colour-based-detection/blob/master/output/2019-12-30-073209_1920x1080_scrot.png)
+- Masks Applied for color based segmentation 
+![Masks](https://github.com/vedrocks15/Colour-based-detection/blob/master/output/2019-12-30-084641_1920x1080_scrot.png)
